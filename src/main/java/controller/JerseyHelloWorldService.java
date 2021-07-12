@@ -22,9 +22,5 @@ public class JerseyHelloWorldService
         return "hello this is display method";
     }
 
-    @GET
-    @Path ( "/show" )
-    public String show(){
-        return "hello this is show method";
-    }
+  
 }
