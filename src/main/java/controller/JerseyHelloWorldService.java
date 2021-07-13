@@ -20,6 +20,7 @@ public class JerseyHelloWorldService
     @Path ( "/hello" )
     public String display(){
         return "hello this is display method";
+
     }
 
   
